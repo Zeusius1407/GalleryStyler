@@ -18,6 +18,7 @@ def stylize(content_path, style_path, output_path):
     output = model(content, style)[0]
     tf.keras.preprocessing.image.save_img(output_path, output[0])
 
+os.mkdir("outputs")
 for style_name in os.listdir("styles"):
     save_name = style_name.split('.')[0]
     for img_name in os.listdir('images'):
