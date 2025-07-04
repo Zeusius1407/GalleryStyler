@@ -12,7 +12,8 @@ The scrpit transfer.py is responsible for style transfer and the script app.py i
 
 # How to run the model
 
-Download the images, styles and outputs repository along with both the python scripts.\
+Download the images and styles directories along with both the python scripts.\
+Make sure all the required python libraries are installed.\
 Run the transfer.py file by using this command in the terminal
 ```
 python transfer.py
