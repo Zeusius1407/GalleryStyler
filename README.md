@@ -1,6 +1,6 @@
 # GalleryStyler
 This is a tool which applies styles to any photo as required by the user.
-# Tech stack used:
+# Tech Stack
 Image processing: Pillow \
 User Interface: Streamlit \
 Style Transfer: TensorFlow \
